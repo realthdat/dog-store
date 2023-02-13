@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>The Whole Dog Market</title>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <style>
+            
+      /* Custom styles for this template */
+      .navbar {
+        background-color: #333;
+        color: white;
+        
+      }
+      #logo {
+      width: 100px;
+      height: 100px;
+    }
+      .navbar a {
+        color: white;
+      }
+      
+      .product-card {
+        position: relative;
+        background-color: #f2f2f2;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 20px;
+        margin: 20px 0;
+        height: 90%;
+      }
+      .product-card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .product-card img:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+      .product-card h2 {
+        margin-top: 20px;
+      }
+      .product-card p {
+        font-size: 16px;
+        color: #333;
+      }
+      .product-card .price {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        position: absolute;
+        bottom: 20px;
+        right: 5px;
+      }
+    </style>
+    </head>
+    <body>
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img id="logo" src="logo_transparent.png" alt="Logo">
+            <div class="container">
+                <a style="font-family: 'Bahnschrift', sans-serif; font-size:
+                    32px; font-weight: lighter;" class="navbar-brand"
+                    href="https://www.petlandrogers.com/">PetLand</a>
+                <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main content -->
+        <div class="container">
+            <!-- Product cards -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <a
+                            href="https://dogily.vn/cho-poodle-teacup/poodle-teacup-trang-ptt00636/"><img
+                                src="https://dogily.vn/wp-content/uploads/2022/07/cho-poodle-teacup-mau-trang-cai-3.png"
+                                alt="Product 1"></a>
+
+                        <h2>White Poodle Teacup</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nulla efficitur egestas risus, a commodo ipsum
+                            commodo non.</p>
+                        <div class="price">$50</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <a
+                            href="https://dogily.vn/cho-poodle-tiny/poodle-tiny-nau-chocolate-ptn00635/"><img
+                                src="https://dogily.vn/wp-content/uploads/2022/06/poodle-mau-nau-chocolate-duc-3-400x400.png"
+                                alt="Product 2"></a>
+
+                        <h2>Tiny Brown Poodle</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nulla efficitur egestas risus, a commodo ipsum
+                            commodo non.</p>
+                        <div class="price">$75</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <a
+                            href="https://dogily.vn/cho-phoc-soc-trang/phoc-soc-pomeranian-trang-pst0561/">
+                            <img
+                                src="https://dogily.vn/wp-content/uploads/2023/02/cho-phoc-soc-trang-sieu-dep-cai-23-400x400.png"
+                                alt="Product 3"></a>
+
+                        <h2>White Pomeranian Squirrel</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nulla efficitur egestas risus, a commodo ipsum
+                            commodo non.</p>
+                        <div class="price">$100</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <a
+                            href="https://dogily.vn/cho-poodle-nau-do/poodle-tiny-nau-do-ptt00306/"><img
+                                src="https://dogily.vn/wp-content/uploads/2021/12/poodle-nau-do-cai-14-400x400.jpg"
+                                alt="Product 4"></a>
+
+                        <h2>Tiny Sepia Poodle</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nulla efficitur egestas risus, a commodo ipsum
+                            commodo non.</p>
+                        <div class="price">$120</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <a
+                            href="https://dogily.vn/cho-alaska-nau-do/alaska-nau-do-and00080/"><img
+                                src="https://dogily.vn/wp-content/uploads/2022/12/cho-alaska-nau-do-2-thang-duc-2-400x400.png"
+                                alt="Product 5"></a>
+
+                        <h2>Sepia Alaska</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nulla efficitur egestas risus, a commodo ipsum
+                            commodo non.</p>
+                        <div class="price">$100</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <a
+                            href="https://dogily.vn/cho-poodle-tiny/poodle-tiny-trang-tai-kem-pvm00054/"><img
+                                src="https://dogily.vn/wp-content/uploads/2022/03/poodle-tai-kem-duc-1-1-400x400.png"
+                                alt="Product 6"></a>
+
+                        <h2>Cream Toy Poodle</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nulla efficitur egestas risus, a commodo ipsum
+                            commodo non.</p>
+                        <div class="price">$100</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScript dependencies -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0,
+                0.05);">
+                Copyright © 2023. All Rights Reserved.
+        </br>
+                <a style="color: #6c757d" href="#">Terms of Service</a> |
+                <a style="color: #6c757d" href="#">Privacy Policy</a> |
+                <a style="color: #6c757d" href="#">Cookie Policy</a>
+            </div>
+
+        </footer>
+    </body>
+
+</html>
